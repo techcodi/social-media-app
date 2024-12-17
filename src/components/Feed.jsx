@@ -14,7 +14,7 @@ function Feed() {
         <Stories />
 
         <div className="feed_input">
-          <img src="../../../public/imagess/profile-1.jpg" alt="profile" />
+          <img src="/imagess/profile-1.jpg" alt="profile" />
           <input
             type="text"
             placeholder="What's in your mind"

@@ -23,7 +23,7 @@ const defaultPost = [
   {
     id: 2,
     name: "John Smith",
-    image: "./public/imagess/feed-3.jpg",
+    image: "./imagess/feed-3.jpg",
     profile: "./imagess/profile-17.jpg",
     likedEmoji: <FavoriteBorderRoundedIcon />,
     like: <FavoriteRoundedIcon />,
@@ -31,7 +31,7 @@ const defaultPost = [
   {
     id: 3,
     name: "Cat Jee",
-    image: "./public/imagess/feed-4.jpg",
+    image: "./imagess/feed-4.jpg",
     profile: "./imagess/profile-18.jpg",
     likedEmoji: <FavoriteBorderRoundedIcon />,
     like: <FavoriteRoundedIcon />,
@@ -39,7 +39,7 @@ const defaultPost = [
   {
     id: 4,
     name: "Stoner",
-    image: "./public/imagess/feed-5.jpg",
+    image: "./imagess/feed-5.jpg",
     profile: "./imagess/profile-18.jpg",
     likedEmoji: <FavoriteBorderRoundedIcon />,
     like: <FavoriteRoundedIcon />,
@@ -47,7 +47,7 @@ const defaultPost = [
   {
     id: 5,
     name: "Joshua",
-    image: "./public/imagess/feed-6.jpg",
+    image: "./imagess/feed-6.jpg",
     profile: "./imagess/profile-17.jpg",
     likedEmoji: <FavoriteBorderRoundedIcon />,
     like: <FavoriteRoundedIcon />,

@@ -16,7 +16,7 @@ function Header() {
           <button className="color-prim" onClick={handleShowPostForm}>
             Create
           </button>
-          <img src="../../../public/imagess/profile-1.jpg" alt="profile" />
+          <img src="/imagess/profile-1.jpg" alt="profile" />
         </div>
       </div>
     </header>

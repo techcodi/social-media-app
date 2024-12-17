@@ -8,9 +8,8 @@ function Navigation() {
   return (
     <nav>
       <div className="nav-container">
-        {" "}
         <div className="nav-user">
-          <img src="../../../public/imagess/profile-1.jpg" alt="profile" />
+          <img src="/imagess/profile-1.jpg" alt="profile" />
           <p>
             <strong>User</strong>
             <i>@user</i>
