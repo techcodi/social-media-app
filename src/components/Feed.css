@@ -1,0 +1,138 @@
+.feed_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 440px;
+  background-color: #0d2239;
+}
+.feed_input img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.feed_input input {
+  border: none;
+  color: #555;
+  width: 100%;
+  background-color: #0d2239;
+}
+.feed_input button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 8rem;
+  cursor: pointer;
+}
+.posts {
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+.post {
+  background-color: #0d2239;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.post-img {
+  width: 100%;
+  display: block;
+  height: 500px;
+  border-radius: 20px;
+}
+.post-imgs {
+  width: 100%;
+  display: block;
+  height: 300px;
+  border-radius: 20px;
+}
+.post-head img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.post-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-head div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.post-head div p {
+  display: flex;
+  flex-direction: column;
+}
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-icons div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.post-icons div svg {
+  cursor: pointer;
+}
+/* +++++++++++++++++++DEFAULT POST FEED */
+.likes-imgs img {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  border-left: 3px solid #0d2239;
+  margin-left: -1rem;
+}
+.likes-imgs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.like-emoji.active {
+  background: red;
+  color: red;
+}
+@media screen and (max-width: 550px) {
+  .feed_input,
+  .posts {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feed_input {
+    width: 70%;
+  }
+  .posts {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  section {
+    margin-left: 1rem;
+  }
+  .feed_input {
+    width: 60%;
+  }
+  .posts {
+    width: 65%;
+  }
+}

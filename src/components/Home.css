@@ -1,0 +1,46 @@
+.Home {
+  display: flex;
+  margin-left: 28rem;
+  position: relative;
+}
+.Home .home-message {
+  margin-left: -25rem;
+  width: 100%;
+}
+@media screen and (max-width: 1185px) {
+  .Home {
+    margin-left: 20rem;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .Home {
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 985px) {
+  .Home .home-message {
+    display: none;
+  }
+  .Home {
+    margin-left: 20rem;
+  }
+}
+@media screen and (max-width: 735px) {
+  .Home {
+    margin-left: 7rem;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 639px) {
+  .Home {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Home {
+    margin-left: 0rem;
+  }
+}

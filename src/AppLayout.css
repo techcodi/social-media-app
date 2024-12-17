@@ -1,0 +1,7 @@
+.app-Layout {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  position: relative;
+  top: 6rem;
+  padding: 1rem;
+}

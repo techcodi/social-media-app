@@ -1,0 +1,121 @@
+.stories-section {
+  width: 450px;
+  margin-bottom: 2rem;
+}
+
+.stories-container .div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.stories-container .div li {
+  position: relative;
+  list-style-type: none;
+}
+.stories .main-story-div {
+  position: relative;
+  cursor: pointer;
+}
+.stories .main-story {
+  width: 80px;
+  height: 180px;
+  border-radius: 20px;
+}
+.story-profile {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.story-profile-div {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 4px solid #7070bb;
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.stories small {
+  top: 0;
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.selected-story {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  width: 430px;
+  position: absolute;
+  padding: 2rem;
+  top: 0;
+  height: 100vh;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: black;
+  z-index: 1;
+}
+.selected-story p {
+  text-align: right;
+  top: 0;
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+  cursor: pointer;
+  margin-right: -2rem;
+  margin-top: -1rem;
+}
+.selected-story .selected-div {
+  transform: translate(0%, 0%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.selected-div img {
+  z-index: 99;
+  width: 300px;
+}
+@media screen and (max-width: 550px) {
+  .stories-section {
+    width: 80%;
+  }
+  .selected-story {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories-section {
+    width: 70%;
+    overflow-x: hidden;
+  }
+  .selected-story {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 430px) {
+  .stories-section {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 390px) {
+  .selected-story {
+    width: fit-content;
+  }
+  .stories-section {
+    width: 60%;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 375px) {
+  .selected-story {
+    width: 55%;
+  }
+}
