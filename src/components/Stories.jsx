@@ -18,25 +18,25 @@ function Stories() {
     {
       id: 2,
       name: "James",
-      image: "./public/imagess/story-3.jpg",
+      image: "./imagess/story-3.jpg",
       profile: "./imagess/profile-17.jpg",
     },
     {
       id: 3,
       name: "Mary",
-      image: "./public/imagess/story-4.jpg",
+      image: "./imagess/story-4.jpg",
       profile: "./imagess/profile-19.jpg",
     },
     {
       id: 4,
       name: "Jane",
-      image: "./public/imagess/story-5.jpg",
+      image: "./imagess/story-5.jpg",
       profile: "./imagess/profile-18.jpg",
     },
     {
       id: 5,
       name: "Sonia",
-      image: "./public/imagess/story-6.jpg",
+      image: "./imagess/story-6.jpg",
       profile: "./imagess/profile-17.jpg",
     },
   ];
